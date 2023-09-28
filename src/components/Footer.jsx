@@ -2,7 +2,7 @@ import footerLogo from "../assets/review-logo.svg";
 const Footer = () => {
   return (
     <div>
-      <p className="text-center text-gray-100 mt-20">
+      <p className="text-center text-gray-100 mt-60">
         Leading the charge for Industries!
       </p>
       <div className="flex justify-center gap-3 mt-4 overflow-hidden">
