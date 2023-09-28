@@ -3,26 +3,26 @@ import rightArrow from "../assets/arrow.svg";
 const HeroSection = () => {
   return (
     <div className="text-white mx-auto mt-40">
-      <div className="flex gap-10 justify-center">
+      <div className="flex gap-10 justify-center max-[1080px]:mx-2 max-[1000px]:flex-wrap ">
         {/* info left */}
-        <div className="flex-[0_0_600px]">
+        <div className="flex-[0_0_600px] max-[1290px]:flex-[0_0_40%] max-[1080px]:flex-[0_0_50%] max-[1000px]:flex-[0_0_80%] max-[1000px]:mx-auto">
           <h2 className="text-5xl font-light">
             Searching for{" "}
             <span className="font-normal">Augmented Development</span> Teams to
             steer your product towards triumph?
           </h2>
-          <div className="flex justify-between mt-6">
-            <div className="flex flex-col gap-2">
+          <div className="flex justify-between mt-6 ">
+            <div className="flex flex-col gap-2 max-[600px]:flex-[0_0_30%]">
               <h2 className="text-3xl font-bold">50+</h2>
               <p className="text-sm">clients</p>
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 max-[600px]:flex-[0_0_30%]">
               <h2 className="text-3xl font-bold">80+</h2>
               <p className="text-sm max-w-[150px]">
                 Projects successfully completed
               </p>
             </div>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 max-[600px]:flex-[0_0_30%]">
               <h2 className="text-3xl font-bold">60%</h2>
               <p className="text-sm max-w-[200px]">
                 of the clients converted into long term engagement partners
@@ -31,12 +31,12 @@ const HeroSection = () => {
           </div>
         </div>
         {/* from right */}
-        <div className="flex-[0_0_600px]">
+        <div className="flex-[0_0_600px] max-[1290px]:flex-[0_0_40%] max-[1080px]:flex-[0_0_45%] max-[1000px]:flex-[0_0_80%] max-[1000px]:mx-auto">
           {/* linear-gradient(180deg, #DBDBDB 12.35%, #AAB1BA 100%) */}
           <form className="custom-bgGround rounded-xl py-10 px-5 text-black">
             <h3 className="text-2xl font-medium">Fill out the form.</h3>
             <p>Our team will touch base with you within 24 hours.</p>
-            <div className="grid grid-cols-[1fr_1fr] gap-2 gap-y-4">
+            <div className="grid grid-cols-[1fr_1fr]  gap-2 gap-y-4 max-[460px]:grid-cols-[90%] max-[460px]:mx-auto ">
               <input
                 className="col-span-1 row-span-1 bg-transparent border-t-0 border-x-0  outline-none border-b-2 border-b-gray-500 border-2 px-2 py-2"
                 type="text"
@@ -66,7 +66,7 @@ const HeroSection = () => {
                 placeholder="Contact Number"
               />
               <input
-                className="col-span-2 row-span-1 bg-transparent border-t-0 border-x-0  outline-none border-b-2 border-b-gray-500 border-2 px-2 py-2"
+                className="col-span-2 max-[460px]:col-span-1 row-span-1 bg-transparent border-t-0 border-x-0  outline-none border-b-2 border-b-gray-500 border-2 px-2 py-2"
                 type="text"
                 name=""
                 id=""
